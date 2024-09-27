@@ -1,5 +1,8 @@
-import React from "react";
+import { fetchLatestInvoices } from '@/app/lib/data';
+import React from 'react';
 
-export default function page() {
+export default async function page() {
+  const latestInvoices = await fetchLatestInvoices();
+
   return <div>Invoices page</div>;
 }
