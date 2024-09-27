@@ -1,5 +1,7 @@
-import React, { PropsWithChildren } from "react";
-import SideNav from "../ui/dashboard/sidenav";
+import React, { PropsWithChildren } from 'react';
+import SideNav from '../ui/dashboard/sidenav';
+
+export const experimental_ppr = true;
 
 export default function layout({ children }: PropsWithChildren) {
   return (
